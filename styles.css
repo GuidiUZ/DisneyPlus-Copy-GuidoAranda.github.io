@@ -1,0 +1,1049 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+
+* {
+    margin: 0px;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Nunito Sans', sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+/*Nav*/
+
+.login {
+    display: flex;
+    flex-direction: row;
+    float: right;
+}
+
+.login .login-buttom {
+    font-size: 13px;
+    padding: 2px;
+    flex-wrap: nowrap;
+    margin: 5px 25px;
+    width: 100px;
+    height: 35px;
+    z-index: 2;
+    letter-spacing: -1px;
+    background-color: rgba(0, 0, 0, 0.75);
+    color: #f9f9f9;
+    border-radius: 3px;
+    border: solid 1px rgb(202, 202, 202);
+}
+
+.login-buttom:hover {
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+
+
+
+/*Nav display only movement*/
+.suscribe-now {
+    display: none;
+}
+
+
+
+/*Section hero images*/
+
+.heros-images-conteiner {
+    width: 100vw;
+    height: 100vh;
+}
+
+.heros-images-conteiner .img {
+    background-image: url(./images/original.jpg);
+    background-repeat: no-repeat;
+    background-size: 97vw 500px;
+    width: 100vw;
+    height: 300px;
+}
+
+
+
+/*h1*/
+
+.heros-images-conteiner .h1-text {
+    display: block;
+    margin-left: 25px;
+    margin-top: -110px;
+    margin-bottom: 10px;
+}
+
+.h1-text h1 {
+    font-size: 20px;
+    text-align: center;
+    max-width: 300px;
+    width: 300px;
+}
+
+
+
+
+/*Logo disney*/
+
+.heros-images-conteiner .logo-disney {
+    display: block;
+    margin: auto;
+}
+
+.logo-disney  img{
+    display: block;
+    margin: -10px auto;
+    width: 160px;
+    height: 120px;
+}
+
+
+
+/*Button contrata*/
+
+.buttom-contrata {
+    display: block;
+    margin: 10px auto;
+}
+
+.buttom-contrata button {
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    width: 300px;
+    height: 45px;
+    background-color: #6421ff;
+    color: white;
+    border-radius: 3px;
+    border: none;
+    text-align: center;
+    font-size: 15px;
+}
+
+.buttom-contrata button:hover {
+    background-color: #6934e2;
+}
+
+
+/*Alternative contracts*/
+
+.alternative-suscribers {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 20px;
+    line-height: 25px;
+}
+
+.alternative-suscribers a {
+    font-size: 13px;
+    text-align: center;
+    color: #f9f9f9;
+}
+
+.alternative-suscribers span {
+    margin-left: 4px;
+}
+
+/*Arrow*/
+
+.buttom-arrow {
+    display: block;
+    margin: 80px auto;
+    width: 15px;
+    height: 15px;
+    top: 50%;
+    transform:  rotate(45deg);
+    border-left: none;
+    border-top: none;
+    border-right: 2px rgb(199, 199, 199) solid;
+    border-bottom: 2px rgb(199, 199, 199) solid;
+}
+
+.buttom-arrow:hover {
+    cursor: pointer;
+    border-right: white solid;
+    border-bottom: white solid;
+}
+
+
+
+
+
+
+
+/* Section Plans*/
+
+
+.lista-planes h2 {
+    text-align: center;
+    margin: 25px auto;
+}
+
+.list ul {
+    display: block;
+    margin: 0px;
+}
+
+.list ul li {
+    list-style-type: none;
+    margin-left: -5px;
+    margin-top: 50px;
+}
+
+/*Promocion 1*/
+
+
+.list .promocion1 {
+    background-image: url(./images/promocion.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 310px;
+    height: 270px;
+}
+
+
+.promocion1 p {
+    font-size: 15px;
+    text-align: center;
+    padding-top: 50px;
+    color: #c0c0c0;
+}
+
+.promocion1 h2 {
+    font-size: 20px;
+}
+
+
+
+.price-description p {
+    font-size: 14px;
+    padding: 0px;
+    margin: auto;
+    margin-top: -25px;
+    text-align: center;
+    max-width: 250px;
+    line-height: 25px;
+}
+
+
+.price-description button {
+    cursor: pointer;
+    display: block;
+    margin: 20px auto;
+    background-color: #6421ff;
+    width: 235px;
+    height: 45px;
+    border-radius: 5px;
+    border: none;
+    color: rgb(231, 231, 231);
+}
+
+.price-description button:hover {
+    background-color: #6934e2;
+}
+
+
+/*Promocion 2*/
+
+.list .promocion2 {
+    background-image: url(./images/promocion-azul.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 310px;
+    height: 270px;
+}
+
+
+.promocion2 p {
+    font-size: 15px;
+    text-align: center;
+    padding-top: 50px;
+    color: #c0c0c0;
+}
+
+.promocion2 h2 {
+    font-size: 20px;
+}
+
+
+
+.price-description2 p {
+    font-size: 14px;
+    padding: 0px;
+    margin: auto;
+    margin-top: -25px;
+    text-align: center;
+    max-width: 235px;
+    line-height: 25px;
+}
+
+
+.price-description2 button {
+    font-size: 14px;
+    cursor: pointer;
+    display: block;
+    margin: 20px auto;
+    background-color: #006ef5;;
+    width: 235px;
+    height: 45px;
+    border-radius: 5px;
+    border: none;
+    color: rgb(231, 231, 231);
+}
+
+.price-description2 button:hover {
+    background-color: #1f80f7;
+}
+
+
+
+
+
+/*Promocion 3*/
+
+
+.list .promocion3 {
+    background-image: url(./images/promocion-azul.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 310px;
+    height: 270px;
+}
+
+
+.promocion3 p {
+    font-size: 15px;
+    text-align: center;
+    padding-top: 50px;
+    color: #c0c0c0;
+}
+
+.promocion3 h2 {
+    font-size: 20px;
+}
+
+
+
+.price-description3 p {
+    font-size: 14px;
+    padding: 0px;
+    margin: auto;
+    margin-top: -25px;
+    text-align: center;
+    max-width: 235px;
+    line-height: 25px;
+}
+
+
+.price-description3 button {
+    font-size: 14px;
+    cursor: pointer;
+    display: block;
+    margin: 20px auto;
+    background-color: #006ef5;;
+    width: 235px;
+    height: 45px;
+    border-radius: 5px;
+    border: none;
+    color: rgb(231, 231, 231);
+}
+
+.price-description3 button:hover {
+    background-color: #1f80f7;
+}
+
+
+/*Precio variation*/
+
+.precio-varacion p {
+    display: block;
+    margin: auto;
+    margin-top: 65px;
+    max-width: 300px;
+    text-align: center;
+    font-size: 11px;
+    color: #c0c0c0;
+}
+
+
+
+/*Section preview-dispositives*/
+
+
+.preview-dispositives {
+    margin-top: 85px;
+}
+
+.img-dispositives img {
+    display: block;
+    margin: auto;
+    width: 300px;
+    height: 215px;
+}
+
+.text-preview h2 {
+    font-size: 26px;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    max-width: 280px;
+}
+
+.text-preview p {
+    margin: auto;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 15px;
+    color: #c0c0c0;
+    max-width: 280px;
+    line-height: 25px;
+}
+
+
+
+
+/*Section disney+exclusives*/
+
+
+.text-exclusives h2 {
+    display: block;
+    margin: auto;
+    text-align: center;
+    max-width: 250px;
+    margin-bottom: 15px;
+}
+
+.text-exclusives p {
+    margin: 30px auto;
+    text-align: center;
+    color: #c0c0c0;
+    font-size: 15px;
+    max-width: 285px;
+    line-height: 25px;
+}
+
+
+/*Images exclusives*/
+
+.images-exclusives ul {
+    padding-left: 15px;
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 18px;
+}
+
+.images-exclusives li img {
+    width: 150px;
+    height: 90px;
+}
+
+.images-exclusives .greg {
+    position: relative;
+    left: 90px;
+}
+
+
+
+
+
+/*Section Downloads*/
+
+.downloads {
+    margin-top: 100px;
+}
+
+
+.img-downloads {
+    display: block;
+    margin: auto;
+    background-image: url(./images/download-mobile.png);
+    background-size: cover;
+    width: 330px;
+    height: 250px;
+}
+
+
+.text-downloads h2 {
+    font-size: 22px;
+    margin-top: 25px;
+    text-align: center;
+}
+
+.text-downloads p {
+    margin: 25px auto;
+    text-align: center;
+    color: #c0c0c0;
+    max-width: 310px;
+}
+
+
+
+
+
+/*Section Dispositives*/
+
+.dispositives {
+    margin-top: 100px;
+}
+
+
+.dispositives h2 {
+    margin: 20px auto;
+    text-align: center;
+    max-width: 250px;
+}
+
+.dispositives ul {
+    padding-left: 10px;
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.dispositives li {
+    padding-bottom: 50px;
+}
+
+.dispositives ul p {
+    margin-left: -25px;
+    margin-top: 10px;
+    font-size: 14px;
+    text-align: center;
+    color: #c0c0c0;
+    line-height: 22px;
+}
+
+.dispositives ul h3 {
+    margin-left: -25px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+
+
+.dispositives img {
+    margin: auto;
+    width: 150px;
+    height: 80px;
+}
+
+
+
+
+/*Seciton FAQ*/
+
+.FAQ h2 {
+    display: block;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.buttoms ul {
+    list-style: none;
+    padding-left: 25px;
+}
+
+.buttoms li button {
+    text-align: initial;
+    cursor: pointer;
+    margin-bottom: 15px;
+    width: 300px;
+    height: 70px;
+    background-color: #13151d;
+    border-radius: 5px;
+    border: none;
+    color: white;
+}
+
+.buttoms span p {
+    margin-top: 25px;
+    margin-left: 13px;
+
+}
+
+.buttoms i {
+    font-size: 25px;
+    margin-left: 250px;
+    position: relative;
+    top: -25px;
+}
+
+
+
+
+/*Footer*/
+
+footer {
+    margin-top: 50px;
+    margin-left: -5px;
+}
+
+.logo-footer img {
+    display: block;
+    margin: auto;
+    width: 80px;
+    height: 80px;
+}
+
+.links {
+    text-align: center;
+    margin: 20px;
+}
+
+.links select {
+    margin-left: 5px;
+    width: 15px;
+    height: 15px;
+    background: black;
+    border: none;
+    color: #c0c0c0;
+}
+
+.links label {
+    color: #c0c0c0;
+    font-size: 15px;
+}
+
+.links  a {
+    text-align: center;
+    padding: 5px;
+    display: inline-block;
+    text-decoration: none;
+    color: #c0c0c0;
+    font-size: 12px;
+    line-height: 25px
+}
+
+
+.copyright p {
+    font-size: 11px;
+    margin: 25px;
+    color: #c0c0c0;
+}
+
+.disclaimer p {
+    margin: 25px;
+    font-size: 10px;
+    text-align: center;
+    color: #c0c0c0;
+    max-width: 350px;
+    width: 325px;
+}
+
+
+
+/* --------------------------- MEDIA QUERYS -------------------*/
+
+@media(min-width: 850px){
+
+    /*Nav*/
+    .login .login-buttom {
+        font-size: 16px;
+        margin: 10px 40px;;
+        width: 165px;
+        height: 47px;
+        border-radius: 5px;
+        letter-spacing: 1px;
+    }
+
+
+
+    /*Hero images*/
+
+    .heros-images-conteiner {
+        margin-bottom: 100px;
+    }
+
+    .heros-images-conteiner .img {
+        background-image: url(./images/original\ 2.jpg);
+        background-size: 99vw 750px;
+        height: 750px;
+    }
+
+
+
+    /*h1*/
+
+    .h1-text {
+        display: flex;
+    }
+
+    .h1-text h1 {
+        font-size: 25px;
+        float: left;
+        margin-top: -500px;
+        margin-left: 60px;
+        max-width: 600px;
+        width: 550px;
+    }
+
+
+    /*logo-disney^*/
+
+    .logo-disney {
+        display: flex;
+        float: left;
+    }
+
+    .logo-disney  img {
+        width: 280px;
+        height: 180px;
+        margin-top: -465px;
+        margin-left: 225px;
+    }
+
+
+
+
+    /*buttom-contrata*/
+
+
+    .buttom-contrata {
+        display: flex;
+        margin: 0px;
+    }
+
+    .buttom-contrata button {
+        width: 550px;
+        height: 65px;
+        border-radius: 2px;
+        text-align: center;
+        font-size: 18px;
+        letter-spacing: 0px;
+        margin-top: -250px;
+        margin-left: 100px;
+    }
+    
+
+
+    /*alternative-suscribers*/
+
+    .alternative-suscribers {
+        display: flex;
+        flex-direction: row;
+        margin: -160px 127px;
+    }
+
+
+    .alternative-suscribers a {
+        font-size: 15px;
+        margin-left: 5px;
+    }
+
+
+
+    .alternative-suscribers span {
+        margin-left: 3px;
+    }
+
+
+
+    /*Arrow*/
+
+
+    .buttom-arrow {
+        float: left;
+        margin: -25px 100px;
+    }
+
+
+
+
+    /*Section Plans*/
+
+    .lista-planes h2 {
+        font-size: 40px;
+    }
+
+    .list h2 {
+        font-size: 25px;
+    }
+
+    
+    .list ul {
+        margin-left: 65px;
+        display: flex;
+        flex-direction: row;
+        padding: 0px;
+    }
+
+    .list ul li {
+        margin: 50px;
+    }
+
+
+    /*List buttoms*/
+
+    .list button {
+        width: 255px;
+        height: 55px;
+        font-size: 16px;
+    }
+
+    .list p {
+        font-size: 16px;
+    }
+
+    /*Promocion1*/
+
+    .price-description p {
+        text-align: center;
+        max-width: 250px;
+        font-size: 16px;
+    }
+
+
+    /*Promocion2*/
+
+    .price-description2 p {
+        max-width: 250px;
+        font-size: 16px;
+    }
+
+
+    /*Promocion3*/
+
+    .price-description3 p {
+        text-align: center;
+        max-width: 250px;
+        font-size: 16px;
+    }
+
+
+
+
+    /*precio-varacion*/
+
+    .precio-varacion p {
+        max-width: 600px;
+    }
+
+
+
+
+
+    /*Section preview-dispositives*/
+
+
+    .preview-dispositives {
+        margin-top: 300px;
+        display: flex;
+    }
+
+    .img-dispositives img {
+        position: relative;
+        bottom: 150px;
+        left: 700px;
+        width: 550px;
+        height: 420px;
+
+    }
+
+    .text-preview {
+        margin-top: -50px;
+        margin-left: -465px;
+        float: left;
+    }
+
+
+    .text-preview h2 {
+        max-width: 550px;
+        font-size: 38px;
+        margin-left: -12px;
+    }
+
+
+    .text-preview p {
+        font-size: 20px;
+        text-align: initial;
+        max-width: 580px;
+    }
+
+
+
+
+
+    /*Section disney+exclusives*/
+
+
+    .text-exclusives h2 {
+        max-width: 550px;
+        font-size: 40px;
+    }
+
+    .text-exclusives p {
+        margin-top: -5px;
+        font-size: 20px;
+        max-width: 750px;
+    }
+
+    .images-exclusives {
+        display: flex;
+        justify-content: center;
+    }
+
+
+    .images-exclusives ul {
+        grid-template-columns: 375px 375px 375px;
+        grid-gap: 15px;
+    }
+
+
+    .images-exclusives li img {
+        width: 370px;
+        height: 215px;
+    }
+    
+    .images-exclusives .greg {
+        position: relative;
+        left: 0px;
+    }
+    
+    
+
+    /*Section downloads*/
+
+    .downloads {
+        margin-top: -200px;
+        margin-bottom: 500px;
+    }
+
+
+
+    .img-downloads {
+        background-image: url(./images/reyleon.jpg);
+        background-size: cover;
+        width: 1200px;
+        height: 650px;
+    }
+
+
+
+    .text-downloads h2 {
+        font-size: 28px;
+        margin-top: -400px;
+        margin-left: 350px;
+    }
+
+
+    .text-downloads p {
+        text-align: initial;
+        max-width: 580px;
+        font-size: 18px;
+        margin-left: 680px;
+    }
+
+
+
+
+    /*Section Dispositives*/
+
+    .dispositives h2 {
+        font-size: 38px;
+        max-width: 700px;
+        margin-top: -25px;
+        text-align: center;
+        }
+
+
+    .dispositives ul {
+        display: flex;
+        flex-direction: row;
+        margin: 150px auto;
+
+    }
+
+
+    .dispositives li {
+        padding-left: 100px;
+    }
+
+
+    .dispositives img {
+        margin: auto;
+        margin-left: -25px;
+        width: 250px;
+        height: 130px;
+    }
+
+
+    .dispositives h3 {
+        font-size: 28px;
+    }
+
+
+    .dispositives li p {
+        margin-top: 25px;
+        font-size: 17px;
+    }
+
+
+
+    /*FAQ*/
+
+
+    .FAQ h2 {
+        font-size: 40px;
+    }
+
+
+    .buttoms li button {
+        display: block;
+        margin: 15px auto;
+        width: 1200px;
+        height: 70px;
+    }
+
+
+    .buttoms span p {
+        font-size: 18px;
+        color: rgb(233, 233, 233);
+    }
+
+
+    .buttoms span i {
+        margin-left: 1150px;
+    
+    }
+
+
+
+
+    /*Footer*/
+
+
+    .links br {
+        display: none;
+    }
+
+
+    .copyright p {
+        display: block;
+        text-align: center;
+    }
+
+
+
+    .disclaimer p {
+        font-size: 11px;
+        margin: auto;
+        margin-bottom: 25px;
+        text-align: center;
+        max-width: 1500px;
+        width: 1300px;
+        line-height: 20px;
+    }
+
+
+
+}
+
+
