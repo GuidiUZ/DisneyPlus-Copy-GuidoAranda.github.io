@@ -13,6 +13,10 @@ body {
     overflow-x: hidden;
 }
 
+@media(max-width: 500px) {
+
+
+
 /*Nav*/
 
 .login {
@@ -645,6 +649,7 @@ footer {
     width: 325px;
 }
 
+}
 
 
 /* --------------------------- MEDIA QUERYS -------------------*/
